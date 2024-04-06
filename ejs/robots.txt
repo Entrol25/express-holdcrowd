@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+# Allow: / # разрешает индексацию всего сайта
+# Disallow: / # запрет индексации всего сайта
+
+Disallow: /game # запрет диррективы
+Disallow: /about
+Disallow: /api
+Disallow: /mexc
+
+Host: https://site.com
+
+Sitemap: https://site.com/sitemap.xml
