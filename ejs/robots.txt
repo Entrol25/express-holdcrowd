@@ -9,6 +9,6 @@ Disallow: /about
 Disallow: /api
 Disallow: /mexc
 
-Host: https://site.com
+Host: https://holdcrowd.com
 
-Sitemap: https://site.com/sitemap.xml
+Sitemap: https://holdcrowd.com/sitemap.xml

@@ -1,63 +1,215 @@
-#myCarousel {
-  padding: 65px 0px 0px 0px;
+/* Logo ---------------------- */
+#myLogo {
+  padding: 0px 20px 0px 20px;
 }
-
-#mYCarouselHeight {
-  height: 500px;
+#myLogo-Text {
+  padding: 0px 0px 5px 0px;
+  color:#b1bfc1;
 }
-
-#mYFooter {
-  padding: 60px 0px 60px 0px;
-}
-
-/* row featurette */
-#forTest {
-  padding: 65px 0px 0px 0px;
-}
-
-/* -------------------------- */
+/* ----- footer --------------- */
 .q1 {
   background-color: antiquewhite;
 }
-
 .q2 {
   background-color: gray;
 }
-
-/* -------------------------- */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* a {
-  color: blue;
-} */
-
+/* Link ---------------------- */
 a:hover {
   color: red;
 }
-
-/* navbar -------------------------- */
+/* a {
+  color: blue;
+} */
+/* navbar ------------------- */
 .my-navbar {
-  background-color: #f5f5f3;
+  /* background-color: #f5f5f3; */
+  background-color: white;
 }
-
 .navbar-brand {
   color: black;
   font-weight: 700;
   font-size: 26px;
 }
-
 .nav-item a {
   font-weight: 500;
   color: gray;
 }
-
 .nav-item a:hover {
   color: rgb(255, 68, 0);
   font-weight: 700;
   text-decoration: underline;
 }
+/* IMG ---------------------- */
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+ 
 
-/* -------------------------- */
+/* .myfooter {
+  display: flex;
+  justify-content: center;
+}
+.myfooter a {
+  color: black;
+}
+.myfooter img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+} */
+/* ---------------------------- */
+/* #myfooter {
+  display: flex;
+  justify-content: center;
+} */
+#myfooter a {
+  color: black;
+}
+#myfooter img {
+  margin-right: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+/* .space {
+  display: flex;
+  justify-content: center;
+} */
+/* .space img {
+  max-width: 500px;
+  height: auto;
+} */
+/* ================================== */
+h1, h2{
+	font-size: 22px;
+}
+h3{
+	font-size: 16px;
+}
+/* ---------------------------- */
+@media (max-width: 5000px)
+{
+	.container2{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-around;
+	/* background: green; */
+	}
+	.container2 div{
+	flex-basis: 33%;
+	padding: 10px;
+	/* border: 1px solid silver; */
+	}
+	.container2 img{
+	width: 500px;
+  height: auto;
+	margin: 0 auto;
+	display: flex;
+	}
+  #myfooter {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ---------------------------- */
+@media (max-width: 1200px)
+{
+	.container2{
+	max-width: 970px;
+	margin: 0 auto;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-around;
+	/* background: blue; */
+	}
+	.container2 div{
+	flex-basis: 33%;
+	padding: 10px;
+	/* border: 1px solid silver; */
+	}
+	.container2 img{
+	width: 400px;
+  height: auto;
+	margin: 0 auto;
+	display: flex;
+	}
+  #myfooter {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ---------------------------- */
+@media (max-width: 992px)
+{
+	.container2{
+	max-width: 750px;
+	margin: 0 auto;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-around;
+	/* background: gray; */
+	}
+	.container2 div{
+	flex-basis: 33%;
+	padding: 10px;
+	/* border: 1px solid silver; */
+	}
+	.container2 img{
+	width: 350px;
+  height: auto;
+	margin: 0 auto;
+	display: flex;
+	}
+  #myfooter {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ---------------------------- */
+@media (max-width: 767px)
+{
+	.container2{
+	max-width: 480px;
+	margin: 0 auto;
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	justify-content: space-around;
+	/* background: yellow; */
+	}
+	.container2 div{
+	flex-basis: 33%;
+	padding: 10px;
+	/* border: 1px solid silver; */
+	}
+	/* a{
+	color: blue;
+	} */
+	.container2 img{
+	width: 450px;
+  height: auto;
+	margin: 0 auto;
+	display: flex;
+	}
+  #myfooter {
+    display: flex;
+    justify-content: left;
+  }
+}
+/* ---------------------------- */
+.box {
+  margin-top: 20px;
+}
+.divinline {
+  display: inline; /* div - в одну сртоку */
+  /* border: 1px solid silver; */
+}
+.margin-down-myfooter {
+  margin-bottom: 100px;
+}

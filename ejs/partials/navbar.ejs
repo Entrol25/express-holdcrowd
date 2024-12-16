@@ -1,9 +1,12 @@
 <nav class="navbar navbar-expand-lg my-navbar">
-  <!-- <nav class="navbar navbar-expand-lg" style="background-color: #b2e2b4;"></nav> -->
-  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"></nav> -->
+
   <div class=" container-fluid">
-    <a class="navbar-brand">Express API</a>
-    <!-- <a class="navbar-brand" href="#">Express</a> -->
+
+    <div id="myLogo">
+      <img src="../img/logo/favicon-32x32.png" class="img-fluid" alt="Logo"></img>
+    </div>
+
+    <a id="myLogo-Text" class="navbar-brand">Hold Crowd</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,26 +23,6 @@
         <li class="nav-item">
           <a class="nav-link <% if (active === 'game') { %>active<% } %>" href="/game">Game</a>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link <% if (active === 'about') { %>active<% } %>" href="/about">About</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link <% if (active === 'api') { %>active<% } %>" href="/api/?num=123&str=qwerty">API</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link <% if (active === 'mexc') { %>active<% } %>" href="/mexc/?num=123&str=qwerty">MEXC</a>
-        </li>
-
-        <!-- <li class="nav-item">
-          <a class="nav-link <% if (active === 'api') { %>active<% } %>" href="/api">API</a>
-        </li> -->
-
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li> -->
 
       </ul>
     </div>
