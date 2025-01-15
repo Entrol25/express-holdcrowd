@@ -41,6 +41,9 @@ app.get('/game', (req, res) => {
 app.get('/game/spacerelaxation', (req, res) => {
   res.render('game/spacerelaxation', { title: 'Space Relaxation', content: 'Space Relaxation', active: 'game' })
 })
+app.get('/game/privacypolicyspacerelaxation', (req, res) => {
+  res.render('game/privacypolicyspacerelaxation', { title: 'Privacy Policy Space Relaxation', content: 'Privacy Policy Space Relaxation', active: 'game' })
+})
 //-----------------------------------------------------------------------
 app.listen(PORT, () => {
   console.log(` ***** Server started on PORT = ${PORT} ***** `)
